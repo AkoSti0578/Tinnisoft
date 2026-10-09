@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Standaardtaal: Nederlands. Engelse vertaling in values-en/strings.xml. -->
 <resources>
-    <string name="app_name">Tinnisoft</string>
+    <string name="app_name" translatable="false">Tinnisoft</string>
 
     <!-- Navigatie -->
     <string name="nav_player">Speler</string>
