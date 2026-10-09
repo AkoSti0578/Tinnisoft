@@ -51,8 +51,8 @@ data class PlaybackState(
     val activePresetId: Long = -1,
     /** The active preset was changed in the mixer and not saved yet. */
     val modified: Boolean = false,
-    val userLevel: Float = 0.35f,
-    val effectiveLevel: Float = 0.35f,
+    val userLevel: Float = 0.45f,
+    val effectiveLevel: Float = 0.45f,
     val maxLevel: Float = 1f,
     val minLevel: Float = 0f,
     val output: OutputDevice = OutputDevice(-1, OutputDevice.Kind.SPEAKER, null),

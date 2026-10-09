@@ -38,10 +38,10 @@ class VolumeLimiterTest {
     }
 
     @Test
-    fun mappingIsMonotonicAndSpans60Db() {
+    fun mappingIsMonotonicAndSpans50Db() {
         assertEquals(0f, VolumeLimiter.levelToGain(0f), 0f)
         assertEquals(1f, VolumeLimiter.levelToGain(1f), 1e-6f)
-        assertEquals(-30f, VolumeLimiter.levelToDb(0.5f), 1e-4f)
+        assertEquals(-25f, VolumeLimiter.levelToDb(0.5f), 1e-4f)
         var last = -1f
         for (i in 0..100) {
             val g = VolumeLimiter.levelToGain(i / 100f)

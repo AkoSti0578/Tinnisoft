@@ -5,14 +5,14 @@ import kotlin.math.pow
 /**
  * App-level volume policy. Pure logic so it can be unit tested.
  *
- * Levels are 0..1 and map to a 60 dB range ([levelToDb]). The cap is applied to the
+ * Levels are 0..1 and map to a 50 dB range ([levelToDb]). The cap is applied to the
  * digital gain of the app's own output, which is the last stage before the system
  * mixer. Hardware volume keys only change the system stream volume, which can attenuate
  * but never amplify (0 dB is its maximum). The total level can therefore never exceed
  * the cap, whatever the phone or earbud volume buttons do.
  */
 object VolumeLimiter {
-    const val RANGE_DB = 60f
+    const val RANGE_DB = 50f
 
     fun levelToDb(level: Float): Float =
         if (level <= 0f) Float.NEGATIVE_INFINITY else RANGE_DB * (level.coerceAtMost(1f) - 1f)

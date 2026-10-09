@@ -148,7 +148,7 @@ class MatcherViewModel @Inject constructor(
         val frequency: Float = 4000f,
         val narrowBand: Boolean = false,
         /** Starts soft on purpose. */
-        val level: Float = 0.25f,
+        val level: Float = 0.35f,
         val playing: Boolean = false,
         val savedHz: Float = 0f,
     )
