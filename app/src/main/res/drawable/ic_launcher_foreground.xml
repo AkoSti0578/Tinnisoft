@@ -1,0 +1,6 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
+    <!-- sound wave bars inside the 66dp safe zone -->
+    <path android:fillColor="#7FCFC4"
+        android:pathData="M33,50h6v8h-6zM43,42h6v24h-6zM53,32h6v44h-6zM63,42h6v24h-6zM73,50h6v8h-6z"/>
+</vector>

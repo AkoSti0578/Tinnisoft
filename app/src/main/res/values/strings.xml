@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Standaardtaal: Nederlands. Engelse vertaling in values-en/strings.xml. -->
+<resources>
+    <string name="app_name">Tinnisoft</string>
+
+    <!-- Navigatie -->
+    <string name="nav_player">Speler</string>
+    <string name="nav_mixer">Mixer</string>
+    <string name="nav_presets">Presets</string>
+    <string name="nav_more">Meer</string>
+    <string name="nav_matcher">Frequentie-matcher</string>
+    <string name="nav_matcher_sub">Zoek de toonhoogte van je tinnitus</string>
+    <string name="nav_log">Logboek</string>
+    <string name="nav_log_sub">Houd bij hoe het gaat (optioneel)</string>
+    <string name="nav_schedule">Planning</string>
+    <string name="nav_schedule_sub">Automatisch starten en stoppen op vaste tijden</string>
+    <string name="nav_settings">Instellingen</string>
+    <string name="nav_settings_sub">Volumegrenzen, fades, Bluetooth en meer</string>
+    <string name="nav_battery_sub">Zorg dat het geluid ’s nachts blijft spelen</string>
+
+    <!-- Algemeen -->
+    <string name="play">Afspelen</string>
+    <string name="pause">Pauzeren</string>
+    <string name="stop">Stoppen</string>
+    <string name="save">Opslaan</string>
+    <string name="saved">Opgeslagen</string>
+    <string name="cancel">Annuleren</string>
+    <string name="ok">OK</string>
+    <string name="next">Volgende</string>
+    <string name="back">Terug</string>
+    <string name="done">Klaar</string>
+    <string name="later">Later</string>
+    <string name="reset">Herstellen</string>
+    <string name="delete">Verwijderen</string>
+    <string name="rename">Hernoemen</string>
+    <string name="off">Uit</string>
+    <string name="understood">Begrepen</string>
+    <string name="starting">Geluid wordt gestart…</string>
+    <string name="seconds_short">%1$d s</string>
+    <string name="minutes_short">%1$d min</string>
+    <string name="hours_minutes">%1$d u %2$02d min</string>
+    <string name="octaves">%1$s octaaf</string>
+
+    <!-- Speler -->
+    <string name="status_playing">Speelt</string>
+    <string name="status_paused">Gepauzeerd</string>
+    <string name="status_fading">Wordt zachtjes gestopt…</string>
+    <string name="custom_mix">Eigen mix</string>
+    <string name="preset_modified">%1$s (aangepast)</string>
+    <string name="volume">Volume</string>
+    <string name="volume_limits">Grenzen: minimaal %1$s, maximaal %2$s</string>
+    <string name="volume_advice">Zet het maskeergeluid net onder of gelijk aan het niveau van je tinnitus, niet erboven.</string>
+    <string name="warning_title">Hoog volume</string>
+    <string name="warning_text">Je zet het volume hoog. Langdurig luisteren op hoog volume kan je gehoor beschadigen.\n\nZet het maskeergeluid net onder of gelijk aan het niveau van je tinnitus, niet erboven.</string>
+    <string name="presets">Presets</string>
+    <string name="output_cap">%1$s · maximaal %2$s</string>
+    <string name="out_speaker">Luidspreker</string>
+    <string name="out_wired">Bekabelde koptelefoon</string>
+    <string name="out_bluetooth">Bluetooth</string>
+    <string name="out_usb">USB-audio</string>
+    <string name="out_hearing_aid">Hoortoestel</string>
+    <string name="out_other">Andere uitvoer</string>
+    <string name="notice_volume_reset">Ander uitvoerapparaat: het volume is teruggezet naar een veilig niveau.</string>
+    <string name="notice_daily_limit">Je dagelijkse luistertijd is bereikt.</string>
+    <string name="notice_focus_denied">Kan nu niet afspelen: een ander geluid (bijv. een gesprek) heeft voorrang.</string>
+
+    <!-- Slaaptimer -->
+    <string name="sleep_timer">Slaaptimer</string>
+    <string name="sleep_timer_hint">Het geluid wordt aan het einde langzaam zachter.</string>
+    <string name="timer_custom">Aangepast: %1$d min</string>
+    <string name="start_timer">Start timer</string>
+    <string name="timer_until">Tot tijdstip…</string>
+    <string name="cancel_timer">Timer annuleren</string>
+    <string name="timer_remaining">Slaaptimer: nog %1$d min</string>
+
+    <!-- Mixer -->
+    <string name="mixer_intro">Combineer tot drie geluidslagen. Wijzigingen hoor je direct.</string>
+    <string name="add_layer">Laag toevoegen (%1$d/%2$d)</string>
+    <string name="layer_n">Laag %1$d · %2$s</string>
+    <string name="remove_layer">Laag verwijderen</string>
+    <string name="layer_volume">Volume van deze laag</string>
+    <string name="kind_noise">Ruis</string>
+    <string name="kind_notched">Notched ruis</string>
+    <string name="kind_narrowband">Smalband-ruis</string>
+    <string name="kind_nature">Natuur</string>
+    <string name="color_white">Wit</string>
+    <string name="color_pink">Roze</string>
+    <string name="color_brown">Bruin</string>
+    <string name="color_blue">Blauw</string>
+    <string name="color_violet">Violet</string>
+    <string name="color_grey">Grijs</string>
+    <string name="nature_rain">Regen</string>
+    <string name="nature_waves">Golven</string>
+    <string name="nature_brook">Beek</string>
+    <string name="nature_wind">Wind</string>
+    <string name="nature_crickets">Krekels</string>
+    <string name="nature_fan">Ventilator</string>
+    <string name="notched_hint">Ruis waaruit een band rond je tinnitusfrequentie is weggefilterd.</string>
+    <string name="narrowband_hint">Een smalle band ruis rond je tinnitusfrequentie (alternatieve maskeermethode).</string>
+    <string name="notch_frequency">Notch-frequentie</string>
+    <string name="notch_width">Breedte van de notch</string>
+    <string name="center_frequency">Middenfrequentie</string>
+    <string name="band_width">Bandbreedte</string>
+    <string name="use_my_frequency">Gebruik mijn frequentie (%1$s)</string>
+    <string name="equalizer">Equalizer</string>
+    <string name="eq_for_tinnitus">Afstemmen op mijn tinnitus</string>
+    <string name="modulation">Golven (modulatie)</string>
+    <string name="modulation_enable">Trage volumegolven</string>
+    <string name="modulation_hint">Het volume deint langzaam, zodat je minder snel gewend raakt.</string>
+    <string name="modulation_depth">Diepte</string>
+    <string name="modulation_period">Periode</string>
+    <string name="balance">Balans</string>
+    <string name="balance_hint">Handig als je tinnitus aan één kant zit.</string>
+    <string name="balance_lr">Links ↔ rechts</string>
+    <string name="balance_left">%1$s naar links</string>
+    <string name="balance_right">%1$s naar rechts</string>
+    <string name="balance_center">Midden</string>
+    <string name="save_as_preset">Opslaan als preset</string>
+    <string name="update_preset">„%1$s” bijwerken</string>
+    <string name="preset_name">Naam</string>
+
+    <!-- Presets -->
+    <string name="presets_intro">Tik op een preset om hem te gebruiken. Met de pijlen verander je de volgorde.</string>
+    <string name="preset_sleep">Slapen</string>
+    <string name="preset_work">Werk</string>
+    <string name="preset_calm">Rustig</string>
+    <string name="move_up">Omhoog</string>
+    <string name="move_down">Omlaag</string>
+    <string name="delete_preset_q">„%1$s” verwijderen?</string>
+    <string name="save_current_as_preset">Huidige mix opslaan als preset</string>
+
+    <!-- Frequentie-matcher -->
+    <string name="matcher_title">Zoek je tinnitusfrequentie</string>
+    <string name="matcher_intro">Ga in een rustige ruimte zitten en gebruik bij voorkeur een koptelefoon. Je hoort zo een toon. Verschuif de toonhoogte tot hij zo veel mogelijk lijkt op je tinnitus.\n\nDe toon begint altijd zacht. Zet hem nooit harder dan nodig.</string>
+    <string name="matcher_tone_type">Soort toon</string>
+    <string name="tone_sine">Zuivere toon</string>
+    <string name="tone_narrowband">Smalband-ruis</string>
+    <string name="matcher_tone_type_hint">Klinkt je tinnitus als een fluittoon, kies dan een zuivere toon. Klinkt hij meer als een sissend of ruisend geluid, kies dan smalband-ruis.</string>
+    <string name="matcher_search_title">Stap 1: toonhoogte zoeken</string>
+    <string name="matcher_search_text">Zet de toon aan en schuif grof naar de juiste hoogte. Stem daarna fijn af met de knoppen.</string>
+    <string name="play_tone">Toon afspelen</string>
+    <string name="tone_starts_soft">Begint zacht en wordt langzaam hoorbaar</string>
+    <string name="tone_volume">Volume van de toon</string>
+    <string name="frequency">Frequentie</string>
+    <string name="coarse">Grof</string>
+    <string name="fine_tune">Fijnafstemming</string>
+    <string name="fine_tune_hint">½ = een halve toon, − en + zijn heel kleine stapjes.</string>
+    <string name="octave_title">Stap 2: octaaf-check</string>
+    <string name="octave_text">Tonen die een octaaf verschillen worden vaak met elkaar verward. Luister naar de drie opties en kies welke het meest op je tinnitus lijkt.</string>
+    <string name="octave_lower">Een octaaf lager (%1$s)</string>
+    <string name="octave_same">Gekozen toon (%1$s)</string>
+    <string name="octave_higher">Een octaaf hoger (%1$s)</string>
+    <string name="octave_confirm">Deze lijkt het meest</string>
+    <string name="result_title">Stap 3: resultaat</string>
+    <string name="result_text">Deze frequentie wordt opgeslagen. Je kunt de matcher altijd opnieuw doen, bijvoorbeeld op een ander moment van de dag.</string>
+    <string name="apply_notch">Gebruiken voor notched ruis en smalband-ruis</string>
+    <string name="apply_eq">Equalizer afstemmen</string>
+    <string name="apply_eq_hint">Versterkt de band rond je tinnitus een beetje.</string>
+
+    <!-- Logboek -->
+    <string name="log_enable">Logboek bijhouden</string>
+    <string name="log_enable_hint">Alleen op dit toestel opgeslagen.</string>
+    <string name="log_today">Vandaag</string>
+    <string name="log_loudness">Hoe luid was je tinnitus vandaag?</string>
+    <string name="log_relief">Hoe goed hielp het maskeren?</string>
+    <string name="log_loudness_short">Luidheid tinnitus</string>
+    <string name="log_relief_short">Hulp van maskeren</string>
+    <string name="log_note">Notitie (optioneel)</string>
+    <string name="log_chart_title">Afgelopen 8 weken</string>
+    <string name="log_chart_empty">Na een paar dagen invullen verschijnt hier een grafiek.</string>
+    <string name="log_chart_desc">Grafiek van tinnitusluidheid en hulp van maskeren over 8 weken</string>
+    <string name="log_chart_axis">Elke verticale lijn is één week; schaal 0–10.</string>
+
+    <!-- Planning -->
+    <string name="schedule_intro">Laat Tinnisoft elke dag automatisch starten en stoppen, zoals een wekker.</string>
+    <string name="schedule_enable">Planning aan</string>
+    <string name="schedule_start">Starten om</string>
+    <string name="schedule_stop">Stoppen om</string>
+    <string name="schedule_preset">Preset</string>
+    <string name="last_used">Laatst gebruikt</string>
+    <string name="exact_alarm_hint">Voor starten op de minuut nauwkeurig heeft Android toestemming nodig voor ‘Wekkers en herinneringen’. Zonder die toestemming kan het tot 10 minuten later starten.</string>
+    <string name="allow_exact_alarms">Toestemming geven</string>
+
+    <!-- Instellingen -->
+    <string name="protection">Volume en gehoorbescherming</string>
+    <string name="protection_hint">De maximale grens geldt voor de app zelf. Ook met de volumeknoppen van je telefoon of oordopjes komt het geluid er nooit boven.</string>
+    <string name="max_headphones">Maximaal volume koptelefoon/oordopjes</string>
+    <string name="max_speaker">Maximaal volume luidspreker</string>
+    <string name="min_volume">Minimaal volume</string>
+    <string name="safe_level">Veilig volume na wisselen van apparaat</string>
+    <string name="warn_level">Waarschuwen boven</string>
+    <string name="daily_limit">Luistertijdlimiet per dag</string>
+    <string name="locked">Grenzen zijn vergrendeld</string>
+    <string name="unlocked">Grenzen zijn ontgrendeld</string>
+    <string name="unlock">Ontgrendelen</string>
+    <string name="set_pin">Pincode instellen</string>
+    <string name="change_pin">Pincode wijzigen</string>
+    <string name="remove_pin">Pincode verwijderen</string>
+    <string name="enter_pin">Voer de pincode in</string>
+    <string name="pin_wrong">Onjuiste pincode, probeer opnieuw</string>
+    <string name="new_pin">Nieuwe pincode</string>
+    <string name="pin_hint">4 tot 8 cijfers</string>
+    <string name="fades">In- en uitfaden</string>
+    <string name="fade_in">Fade-in bij starten</string>
+    <string name="fade_out">Fade-out bij stoppen en timer</string>
+    <string name="fade_hint">Pauzeren gaat altijd snel (1,5 s). De slaaptimer fadet minimaal 60 seconden.</string>
+    <string name="bluetooth_audio">Bluetooth en audio</string>
+    <string name="auto_resume">Automatisch hervatten</string>
+    <string name="auto_resume_hint">Weer afspelen zodra je oordopjes opnieuw verbinden. Bij loskoppelen pauzeert Tinnisoft altijd meteen.</string>
+    <string name="focus_title">Bij een gesprek of navigatie-aanwijzing</string>
+    <string name="focus_duck">Zachter zetten (navigatie), pauzeren bij gesprek</string>
+    <string name="focus_pause">Altijd pauzeren</string>
+    <string name="resume_after_interruption">Daarna automatisch hervatten</string>
+    <string name="relaxed_latency">Bluetooth-latency maakt niet uit</string>
+    <string name="relaxed_latency_hint">Grotere buffers: stabieler en zuiniger, maar wijzigingen klinken iets later door. Geldt vanaf de volgende start.</string>
+    <string name="background">Achtergrond</string>
+    <string name="battery_help">Accuoptimalisatie en tips</string>
+    <string name="resume_boot">Hervatten na herstart</string>
+    <string name="resume_boot_hint">Speelde Tinnisoft toen de telefoon uitging, dan start het daarna weer. Op Android 15 en hoger krijg je een melding om met één tik te hervatten.</string>
+    <string name="display">Weergave</string>
+    <string name="light_theme">Licht thema</string>
+    <string name="about">Over Tinnisoft</string>
+    <string name="privacy_text">Werkt volledig offline. Geen account, geen tracking, geen advertenties. Je gegevens blijven op dit toestel.</string>
+    <string name="audio_load">Belasting audio-thread: %1$s procent</string>
+    <string name="version">Versie %1$s</string>
+    <string name="app_permissions">App-instellingen en toestemmingen</string>
+
+    <!-- Accu -->
+    <string name="battery_title">Blijven spelen op de achtergrond</string>
+    <string name="battery_text">Android en sommige fabrikanten stoppen apps op de achtergrond om accu te sparen. Dan kan het geluid ’s nachts ineens stoppen. Sta daarom toe dat Tinnisoft niet wordt geoptimaliseerd. Tinnisoft gebruikt zelf weinig stroom.</string>
+    <string name="battery_request">Uitzondering aanvragen</string>
+    <string name="battery_ok">Accuoptimalisatie staat uit voor Tinnisoft. Prima!</string>
+    <string name="battery_not_ok">Accuoptimalisatie staat nog aan. Het geluid kan op de achtergrond worden gestopt.</string>
+    <string name="tips_samsung_title">Samsung</string>
+    <string name="tips_samsung">Instellingen › Batterij › Limieten achtergrondgebruik: zet Tinnisoft bij ‘Nooit in slaapstand gezette apps’. Zet ‘Ongebruikte apps in slaapstand zetten’ eventueel uit.</string>
+    <string name="tips_xiaomi_title">Xiaomi / Redmi / POCO</string>
+    <string name="tips_xiaomi">Instellingen › Apps › Tinnisoft: zet ‘Autostart’ aan en kies bij ‘Batterijbesparing’ voor ‘Geen beperkingen’. Vergrendel de app eventueel in het overzicht van recente apps (hangslotje).</string>
+    <string name="tips_other_title">Andere toestellen</string>
+    <string name="tips_other">Zoek in de instellingen naar ‘Batterij’ of ‘Accu’ en zet beperkingen voor Tinnisoft uit. Op dontkillmyapp.com staan tips per merk.</string>
+    <string name="open_app_settings">App-instellingen openen</string>
+
+    <!-- Disclaimer -->
+    <string name="welcome">Welkom bij Tinnisoft</string>
+    <string name="welcome_text">Tinnisoft maakt rustgevende ruis en geluiden die je tinnitus kunnen maskeren, zodat het oorsuizen minder opvalt.</string>
+    <string name="disclaimer_title">Belangrijk</string>
+    <string name="disclaimer_text">Tinnisoft is geen medisch hulpmiddel en vervangt geen advies van een huisarts, KNO-arts of audioloog.</string>
+    <string name="disclaimer_urgent">Plotseling ontstane of eenzijdige tinnitus, gehoorverlies of pijn: neem contact op met een arts.</string>
+    <string name="disclaimer_accept">Ik begrijp het</string>
+
+    <!-- Meldingen -->
+    <string name="channel_playback">Afspelen</string>
+    <string name="channel_alerts">Meldingen</string>
+    <string name="limit_reached_title">Dagelijkse luistertijd bereikt</string>
+    <string name="limit_reached_text">Je hebt vandaag %1$d minuten geluisterd. Het geluid wordt rustig gestopt. Geef je oren ook wat rust.</string>
+    <string name="resume_boot_title">Tinnisoft starten?</string>
+    <string name="resume_boot_text">Tik om het maskeergeluid te starten.</string>
+
+    <!-- Widget en tegel -->
+    <string name="widget_description">Snel starten en pauzeren</string>
+    <string name="next_preset">Volgende preset</string>
+</resources>
