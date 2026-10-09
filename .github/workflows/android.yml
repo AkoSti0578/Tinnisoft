@@ -49,8 +49,8 @@ jobs:
             echo "::warning::No KEYSTORE_BASE64 secret: APK will be signed with a debug key."
           fi
 
-      - name: Unit tests
-        run: ./gradlew --no-daemon testDebugUnitTest
+      - name: Unit tests and lint
+        run: ./gradlew --no-daemon testDebugUnitTest lintDebug
 
       - name: Build release APK
         env:
@@ -63,7 +63,8 @@ jobs:
           ./gradlew --no-daemon assembleRelease
           mkdir -p dist
           cp app/build/outputs/apk/release/app-release.apk "dist/Tinnisoft-${{ steps.version.outputs.name }}.apk"
-          "$ANDROID_HOME"/build-tools/*/apksigner verify --print-certs dist/*.apk | head -5 || true
+          APKSIGNER="$(ls -d "$ANDROID_HOME"/build-tools/* | sort -V | tail -1)/apksigner"
+          "$APKSIGNER" verify --print-certs dist/*.apk
 
       - uses: actions/upload-artifact@v4
         with:

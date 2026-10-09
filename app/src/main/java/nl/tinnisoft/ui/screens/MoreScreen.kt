@@ -14,10 +14,10 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.MenuBook
 import androidx.compose.material.icons.filled.Alarm
 import androidx.compose.material.icons.filled.BatteryChargingFull
 import androidx.compose.material.icons.filled.GraphicEq
-import androidx.compose.material.icons.filled.MenuBook
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
@@ -37,7 +37,7 @@ fun MoreScreen(navigate: (String) -> Unit) {
     data class Entry(val route: String, val icon: ImageVector, val title: Int, val subtitle: Int)
     val entries = listOf(
         Entry("matcher", Icons.Filled.GraphicEq, R.string.nav_matcher, R.string.nav_matcher_sub),
-        Entry("log", Icons.Filled.MenuBook, R.string.nav_log, R.string.nav_log_sub),
+        Entry("log", Icons.AutoMirrored.Filled.MenuBook, R.string.nav_log, R.string.nav_log_sub),
         Entry("schedule", Icons.Filled.Alarm, R.string.nav_schedule, R.string.nav_schedule_sub),
         Entry("settings", Icons.Filled.Settings, R.string.nav_settings, R.string.nav_settings_sub),
         Entry("battery", Icons.Filled.BatteryChargingFull, R.string.battery_title, R.string.nav_battery_sub),

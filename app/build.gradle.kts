@@ -71,6 +71,10 @@ android {
     lint {
         abortOnError = false
         checkReleaseBuilds = true
+        // print findings in the CI log
+        textReport = true
+        textOutput = file("stdout")
+        disable += setOf("GradleDependency", "NewerVersionAvailable", "AndroidGradlePluginVersion")
     }
     packaging {
         resources.excludes += "/META-INF/{AL2.0,LGPL2.1}"
