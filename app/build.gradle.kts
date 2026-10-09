@@ -71,9 +71,7 @@ android {
     lint {
         abortOnError = false
         checkReleaseBuilds = true
-        // print findings in the CI log
         textReport = true
-        textOutput = file("stdout")
         disable += setOf("GradleDependency", "NewerVersionAvailable", "AndroidGradlePluginVersion")
     }
     packaging {
